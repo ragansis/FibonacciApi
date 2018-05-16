@@ -38,8 +38,13 @@ Es la versión inicial del desarrollo.
 Baja el codigo fuenta a tu ambiente de desarrollo local:
 
 ```
-git clone 
+git clone https://github.com/Rart3001/FibonacciApi
 
+```
+Entra la carpeta FibonacciApi:
+
+```
+cd FibonacciApi
 ```
 
 ####  Compilar y ejecutar la App #### 
@@ -53,14 +58,15 @@ Compila la aplicación y descarga sus dependencias con el siguiente comando.
 ####  Iniciar el servidor #### 
 
 ```
+java -jar target/fibo-0.0.1-SNAPSHOT.jar
 
 ```
 
 ####  Prueba de que el servicio este activo #### 
 
-```
-[http://localhost:8080/api/v1/](http://localhost:8080/api/v1/)
-```
+
+[http://localhost:8080/api/v1/fibo](http://localhost:8080/api/v1/fibo)
+
 
 Si todo sale bien podrás observar en tu navegador el siguiente mensaje.
 
@@ -73,11 +79,9 @@ http://localhost:8080/api/v1/fibo/{num}
 ```
 Donde “{num}” lo tienes que sustituir por el numero que representa la posición que deseas calcular.  Ejemplo:
 
-```
 [http://localhost:8080/api/v1/fibo/6](http://localhost:8080/api/v1/fibo/6)
-```
 
-Cuando el API realice el caluculo te mostrara un json con el siguiente formato:
+Cuando el API realice el caluculo te retornara un json con el siguiente formato:
 
 ```
 {
