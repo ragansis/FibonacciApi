@@ -62,8 +62,10 @@ java -jar target/fibo-0.0.1-SNAPSHOT.jar
 
 ```
 
-####  Prueba de que el servicio este activo #### 
+####  Prueba de que la aplicación está activa ####
 
+ 
+Entra a tu navegador web y coloca la siguiente dirección:
 
 [http://localhost:8080/api/v1/fibo](http://localhost:8080/api/v1/fibo)
 
@@ -72,12 +74,14 @@ Si todo sale bien podrás observar en tu navegador el siguiente mensaje.
 
 >  I am Working! ;)
 
-####  Prueba de que del servicio fibo #### 
+####  Prueba del servicio fibo #### 
+
+En tu navegador utiliza la siguiente dirección: 
 
 ```
 http://localhost:8080/api/v1/fibo/{num}
 ```
-Donde “{num}” lo tienes que sustituir por el numero que representa la posición que deseas calcular.  Ejemplo:
+Donde “{num}” lo tienes que sustituir por el número que representa la posición que deseas calcular.  Ejemplo:
 
 [http://localhost:8080/api/v1/fibo/6](http://localhost:8080/api/v1/fibo/6)
 
