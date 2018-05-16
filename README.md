@@ -5,10 +5,12 @@ Demo de una Aplicacion Web que expone un API, el cual calcula el número de la *
 ### Que es la sucesión de Fibonacci? ###
 
 En matemática, la sucesión de Fibonacci es la siguiente sucesión infinita de números naturales:
+
 La espiral de Fibonacci: una aproximación de la espiral áurea generada dibujando arcos circulares conectando las esquinas opuestas de los cuadrados ajustados a los valores de la sucesión;1 adosando sucesivamente cuadrados de lado 0, 1, 1, 2, 3, 5, 8, 13, 21 y 34.
+
 La sucesión comienza con los números 0 y 1,2, y a partir de estos, «cada término es la suma de los dos anteriores», es la relación de recurrencia que la define.
-A los elementos de esta sucesión se les llama números de Fibonacci. Esta sucesión fue descrita en Europa por Leonardo de Pisa, matemático italiano del siglo XIII también conocido como Fibonacci.
-* [Más Info](https://es.wikipedia.org/wiki/Sucesi%C3%B3n_de_Fibonacci)
+
+A los elementos de esta sucesión se les llama números de Fibonacci. Esta sucesión fue descrita en Europa por Leonardo de Pisa, matemático italiano del siglo XIII también conocido como Fibonacci. [Más Info](https://es.wikipedia.org/wiki/Sucesi%C3%B3n_de_Fibonacci)
 
 ### Sobre la aplicación ###
 
