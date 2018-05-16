@@ -103,7 +103,3 @@ Cuando el API realice el calculo te retornara un json con el siguiente formato:
 
 * Escritura de pruebas
 * Revisión de código.
-
-### ¿Con quién hablo? ###
-
-* Propietario de repositorio.
