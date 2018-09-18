@@ -6,7 +6,7 @@
 	<groupId>com.rrequena</groupId>
 	<artifactId>fibo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>jar</packaging>
+	<packaging>war</packaging>
 
 	<name>Fibonacci</name>
 	<description>Fibonacci Demo project using Spring Boot</description>
